@@ -10,4 +10,5 @@ $sql ="INSERT INTO  thucung (CODE,NAME,TYPE,URLimage) VALUES ('{$code}','{$Name}
 $conn->query($sql);
 header("Location:../../index.php");
 //Trần hồng thang
+//tranning
 exit;
