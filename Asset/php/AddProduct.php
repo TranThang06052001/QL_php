@@ -9,4 +9,5 @@ move_uploaded_file($tmp_name,"~/imgProducts/".$filename);
 $sql ="INSERT INTO  thucung (CODE,NAME,TYPE,URLimage) VALUES ('{$code}','{$Name}','{$type}','~/Asset/php/imgProducts/{$filename}')";
 $conn->query($sql);
 header("Location:../../index.php");
+//Trần hồng thang
 exit;
